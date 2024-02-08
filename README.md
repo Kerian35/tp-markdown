@@ -18,8 +18,20 @@ texte en **gras**
 
 ![Texte alternatif](https://www.bienmanger.com/tinyMceData/images/contents/484/content_lg.jpg)
 
+```sh
+docker run -tid --name site1 -p 8001:80 httpd
+```
 
 
+```html
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Titre du site Web</h1>
+    </body>
+</html>
+```
 
 
 
